@@ -17,13 +17,8 @@ export function Projects() {
     subtitle: "프로젝트",
     initialDisplay: 6,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"","video":"","color":"","opacity":0.1},
+    projects: [{"image":"/uploads/project-1764141506715-1764141509798.png","video":"","title":"대한토지신탁 프로젝트 분석도","description":"대한토지신탁의 기업분석과 대한토지신탁에서 시행한 관리형 토지신탁사업으로 용인시 수지구 신봉동 오피스텔 신축사업의 원부, 사업구조도, 특약분석"},{"image":"/uploads/project-1764141961334-1764141961370.png","video":"","title":"인천시 계양구 병방동 433-1 경매물건분석","description":"GTX노선 확장, 계양테크노벨리 사업과 같은 개발호재 및 인천공항과 김포공항 모두 30분 이내 거리에 위치한 점을 기반으로 하여 물건 선정 후 분석자료 향후 가치 상승 기대"},{"image":"/uploads/project-1764146293383-1764146293726.png","video":"","title":"영풍 석포제련소 환경 문제에 대한 고찰","description":" 급격한 산업성장과 도시화로 인해 인프라가 형성되고, 발전하지만 산업성장과 도시화, 발전과 함께 비례해서 나타나는 환경오염 문제에 대하여 영풍 석포제련소를 중심으로 분석하고, 해결방안을 제시"},{"image":"/uploads/project-1764146926512-1764146927160.png","video":"","title":"토지이용계획 분석","description":"강원도 춘천시 서면 일대의 지역을 선정 후 브이월드앱을 기반으로 현재의 이용도보다 집약적이고 기술적인 부분에 맞춰 토지이용계획도를 분석 및 작성"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)

@@ -43,7 +43,7 @@ export function Contact() {
     website: "",
     location: "경기도 용인시 수지구 죽전로 144번길 7-2",
     workTime: "24시간 연중무휴",
-    responseTime: "24시간 이내 응답",
+    responseTime: "최대 1분 이내 응답",
     sectionTitle: "연락처",
     sectionSubtitle: "프로젝트 문의나 협업 제안을 기다리고 있습니다. 편하신 방법으로 연락주세요!",
     qrTitle: "QR 코드로 연락처 저장",
