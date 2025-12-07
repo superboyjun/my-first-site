@@ -36,11 +36,11 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
-    name: "하이퍼예준",
-    title: "단국대 학생입니다",
+    greeting: "시장의 변화보다 한걸음 먼저 소비자의 니즈를 파악하다",
+    name: "이예준 사원",
+    title: "단국대학교본부/사원",
     description: "프롭테크 기술로 부동산 시장을 분석합니다.",
-    profileImage: "/uploads/hero-profile-1764142565174.jpg",
+    profileImage: "/uploads/hero-profile-1765104760059.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
