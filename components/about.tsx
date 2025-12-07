@@ -98,9 +98,9 @@ export function About() {
   const defaultInfo = {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
-    background: {"image":"","video":"","color":"","opacity":0.1},
+    background: {"image":"/uploads/about-background-1765114819935.png","video":"","color":"","opacity":0.3},
     experienceCards: [{"icon":"user","title":"대한민국해군 병장 만기전역","period":"2023~2025","description":"2024 218조기경보대대장 표창 수상  2025 2함대 사령관 표창 수상"},{"icon":"graduation","title":"단국대학교 도시계획부동산학부","period":"2022~","description":"부동산학 전공"},{"icon":"award","title":"자격증/수상","period":"2024 투자자산운용사 자격층 취득","description":"설명을 입력하세요"},{"icon":"award","title":"자격증/수상","period":"2025 공인중개사 1차 합격","description":"설명을 입력하세요"},{"icon":"target","title":"대한토지신탁 인턴","period":"2026~","description":"목표(해보고 싶음)"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    skills: [{"icon":"sparkles","title":"시장의 변화 예측","description":"시장에 공개된 정보만으로는 원하는 목표에 달성하기 어렵습니다. 시장에 나올 정보를 미리 예측하고, 트렌드와 수요를 파악하여 남들보다 빠르고 확실한 소스를 제공합니다. "},{"icon":"heart","title":"목표를 향한 집념과 심층분석","description":"이제껏 쌓아온 제 경험과 성취를 기반으로 누구보다 자신있는 목표를 향한 집념, 그리고 이를 뒷받침하는 넓고 깊은 분석으로 고객의 니즈를 확실하게 파악합니다. "},{"icon":"database","title":"다방면의 데이터 접목","description":"저는 이순간에도 끊임없이 학습하고 성장중입니다. 지금까지의 데이터베이스와 향후 습득한 지식을 총동원하여 양질의 결과를 보여드립니다.  "}],
     storyTitle: "나의 이야기",
     story: ["어릴 적 TV에서 날아오르는 숀화이트 선수의 모습을 보고 스노우보드에 빠져들었습니다. ","스노우보드에서 시작된 제 보드 사랑은 스케이트보드, 서핑보드, 스키로 퍼져나갔으며, 탈 수 있는 판이라면 삽, 널빤지를 가리지 않고 타는 지경이 되었습니다.  ","1초도 되지 않는 시간이지만, 그 트릭들을 하기 위해선 무수히 많은 시간과 노력이 필요하기에, 그 과정에서 도전, 인내를 바탕으로 성취감을 이뤄냈습니다. ","보드를 통한 열정과 노력들은 학창시절과 군생활에도 긍정적인 영향을 줬으며, 저를 한층 더 성장하게 만들었습니다. ","자격증 취득, 기업분석과 같이 목표를 정하면 성취감을 위해 끝없이 도전하는 제가 되었습니다.  ","이제껏 이룬 자격증과 기업분석, 프로젝트들은 또다른 밑거름이 되었고, 멈추지 않고 계속해서 정진하고 있습니다.","저는 현재 공인중개사 2차합격과 디지털자격증, 신탁회사 인턴이라는 목표를 품고 나아가고 있습니다. ","Do a kickflip! 끝없는 노력과 인내로 끊임없이 성장하는 제 모습을 증명하겠습니다. "],
     storyImage: "/uploads/about-image-1765108940339.jpg",

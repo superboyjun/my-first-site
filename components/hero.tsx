@@ -39,13 +39,13 @@ export function Hero() {
     greeting: "시장의 변화보다 한걸음 먼저 소비자의 니즈를 파악하다",
     name: "이예준 사원",
     title: "단국대학교본부/사원",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
+    description: "부동산시장에만 국한하지 않고, 기업과 경제, 시사로 범위를 넓혀 상호간 어떤 영향을 주고받는지 분석하고, 이를 프로그램과 접목시켜 다방면으로 시장의 변화에 대응한 아이디어를 제공하여 준비된 모습을 보여드리겠습니다.",
     profileImage: "/uploads/hero-profile-1765104760059.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    background: {"image":"/uploads/hero-background-1765114732610.png","video":"","color":"","opacity":0.3}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)

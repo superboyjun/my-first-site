@@ -38,7 +38,7 @@ export function Contact() {
     title: "단국대학교 도시계획부동산학부",
     company: "단국대학교",
     experience: "3학년",
-    phone: "010-5419-4221",
+    phone: "010-5419-****",
     email: "future508@naver.com",
     website: "",
     location: "경기도 용인시 수지구 죽전로 144번길 7-2",
@@ -56,7 +56,13 @@ export function Contact() {
   }
   
   // 소셜 링크 기본값 (배열 형태로 변경)
-  const defaultSocialLinks: { name: string; icon: string; url: string }[] = []
+  const defaultSocialLinks: { name: string; icon: string; url: string }[] = [
+    {
+      "name": "새 링크",
+      "icon": "globe",
+      "url": ""
+    }
+  ]
   
   const [contactInfo, setContactInfo] = useState(defaultInfo)
   const [socialLinks, setSocialLinks] = useState(defaultSocialLinks)
